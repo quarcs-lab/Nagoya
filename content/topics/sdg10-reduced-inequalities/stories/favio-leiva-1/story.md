@@ -11,7 +11,7 @@ categories: ['Inequality','Non Spanish Speakers', 'Language' ,'Gini']
 
 Some authors argue that if there is more diversity, more creativity arises, and more output is generated (for an extensive discussion on the issue revise Alesina & La Ferrara (2005)). In this short article, it’s shown that there is a negative relation between the Herfindahl Hirschman Index (HHI hereafter) of Ethnicity at the Municipality level (Instituto Nacional de Estadística, 2012) in 2012 and the Sustainable Development Municipality Index (Andersen et al., 2020) in 2020 respectively. For a discussion on the HHI revise Herfindahl (1950) and Hirschman (1945). The formula is the following:
 
-$HHI_j = \sum_{i=1}^4 S_{ij}^2$
+$$HHI_j = \sum_{i=1}^4 S_{ij}^2$$
 
 Where $S_i^2$ is the squared share of ethnic group i in each municipality $j$ multiplied by 100. If there is a higher value of that index, then we have more concentration (less diversity). If it’s lower, there is less concentration (more diversity). By construction, the possible outcomes are only 4: Indigenous, Non Indigenous, Non Bolivian and Unspecified. Therefore, ideally, the minimum theoretical value can be 2,500 and the maximum, 10,000. 
 To make an interpretation of this index, we shall note that when it is closer to 10,000, it means that only one ethnic group concentrates all the population. When it is closer to 2,500, there is more diversity (each of the 4 groups have similar populations). If we make a disaggregation of more groups, the indicator could become closer to 0. In a scatter plot, a negative slope means that more diversity is correlated with a higher dependent variable.
